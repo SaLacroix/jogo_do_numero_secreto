@@ -1,5 +1,5 @@
 let listaNumeroSecretos = [];
-let limite = 10;
+let limite = 100;
 let numeroSecreto = numeroAleatorio();
 let tentativas= 1;
 
@@ -13,11 +13,11 @@ function mudarTextoDaTela(tag,texto){
 
 function mensagemInicial(){
 mudarTextoDaTela("h1", "Bem vindo ao jogo");
-mudarTextoDaTela("p", "Escolha um número de 1 a 10");
+mudarTextoDaTela("p", "Escolha um número de 1 a 100");
 }
 
 function numeroAleatorio(){
-    let numeroEscolhido = parseInt(Math.random() * 10 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
     let quantidadeDeItensNaLista = listaNumeroSecretos.length;
         if (quantidadeDeItensNaLista == limite){
             listaNumeroSecretos = [];
