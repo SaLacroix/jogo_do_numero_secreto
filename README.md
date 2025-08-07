@@ -1,4 +1,4 @@
-##Jogo do numero secreto
+Jogo do numero secreto
 
 Nesse projeto, eu fiz um jogo onde o usuário precisa descobrir um número que será gerado aleatoriamente, caso o usuário erre, poderá ter algumas chances, sé as chances se esgotarem, fim de jogo.
 
